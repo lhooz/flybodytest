@@ -6,6 +6,8 @@ build-backend = "setuptools.build_meta"
 name = "flybody"
 version = "0.1.0"
 dependencies = [
+    "numpy==1.26.4",
+    "scipy==1.11.4",
     "dm_control",
     "h5py",
     "pytest",
